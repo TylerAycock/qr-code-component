@@ -7,7 +7,7 @@
 
 .attribution { 
     position: absolute;
-    right: 0;
+    right: 50;
     bottom: 0;
     font-size: 1rem; 
     text-align: center; 
@@ -15,6 +15,11 @@
 }
 .attribution a {
      color: var(--dark-blue) 
+}
+
+.attribution a:hover{
+    cursor: pointer;
+    color: var(--grayish-blue);
 }
 
 body{
